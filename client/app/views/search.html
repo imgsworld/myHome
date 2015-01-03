@@ -1,0 +1,60 @@
+<div class="search-box">
+	<form name="search_form1" target="_blank" onsubmit="return gowhere1(this)">
+		<table width="460" height="60">
+		<tr>
+			<td>
+				<table width="460" height="0" border=0 cellPadding=0 cellSpacing=0>
+					<input name=myselectvalue type=hidden value=0>
+					<input name=tn type=hidden>
+					<input name=ct type=hidden>
+					<input name=lm type=hidden>
+					<input name=cl type=hidden>
+					<input name=rn type=hidden>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td class="search-top-td" ng-init="radioChecked=0">
+				<label>
+					<i class="iconfont" ng-if="radioChecked!=4">&#xe60e;</i> <i class="iconfont" ng-if="radioChecked==4">&#xe62c;</i>
+					<input name=myselect onclick=javascript:this.form.myselectvalue.value=4; type=radio value=4 ng-model="radioChecked">
+					新闻
+				</label>
+				<label >
+					<i class="iconfont" ng-if="radioChecked!=0">&#xe60e;</i> <i class="iconfont" ng-if="radioChecked==0">&#xe62c;</i>
+					<input CHECKED name=myselect onclick=javascript:this.form.myselectvalue.value=0; type=radio value=0 ng-model="radioChecked">
+					网页
+				</label>
+				<label>
+					<i class="iconfont" ng-if="radioChecked!=1">&#xe60e;</i> <i class="iconfont" ng-if="radioChecked==1">&#xe62c;</i>
+					<input name=myselect onclick=javascript:this.form.myselectvalue.value=1; type=radio value=1 ng-model="radioChecked">
+					音乐
+				</label>
+				<label>
+					<i class="iconfont" ng-if="radioChecked!=6">&#xe60e;</i> <i class="iconfont" ng-if="radioChecked==6">&#xe62c;</i>
+					<input name=myselect onclick=javascript:this.form.myselectvalue.value=6; type=radio value=6 ng-model="radioChecked">
+					贴吧
+				</label>
+				<label>
+					<i class="iconfont" ng-if="radioChecked!=5">&#xe60e;</i> <i class="iconfont" ng-if="radioChecked==5">&#xe62c;</i>
+					<input name=myselect onclick=javascript:this.form.myselectvalue.value=5; type=radio value=5 ng-model="radioChecked">
+					图片
+				</label>
+			</td>
+		</tr>
+		<table width="100%">
+			<tbody>
+				<tr>
+					<td>
+						<div class="input-group"> 
+							<input id=word name=word style="height:45px;" class="form-control" placeholder="在此输入您想要搜索的…">
+							<span class="input-group-btn"> 
+								<input class="btn btn-default" type="submit" value="搜索" style="background-color:#eee;border-color:#ccc;height:45px;padding-left:30px;padding-right:30px;">
+							</span>
+						</div>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</form>
+</div>

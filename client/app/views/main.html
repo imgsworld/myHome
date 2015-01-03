@@ -1,0 +1,16 @@
+<header> <before-sign-top ng-if="!isSignin"/> </header>
+
+<hgroup>
+	<div class="main-box" id="mainBox">
+		<p class="align-center">
+			<a href="###" class="active"><i class="iconfont">&#xe609;</i> 搜索</a>
+			<a href="###" ng-repeat="item in listBlock">{{item.name}}</a>
+			<i class="iconfont add-pindao-icon">&#xf0154;</i>
+		</p>
+		<div class="main-content">
+			<search ng-if="true"/>
+		</div>
+	</div>
+</hgroup>
+
+<footer> <my-footer /> </footer>

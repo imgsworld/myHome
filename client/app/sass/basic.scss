@@ -1,0 +1,51 @@
+input,button,select,textarea{
+	outline:none !important;
+} 
+
+body{
+	padding:0;
+	margin:0;
+	width:100%;
+	height:100%;
+	overflow:hidden;
+	background-color:#fff;
+}
+
+a:hover{
+	text-decoration:none;
+}
+
+ul{
+	padding:0;
+}
+
+li{
+	list-style-type:none;
+}
+
+.row{
+	padding:0;
+	margin:0;
+}
+
+.fw{
+	width:100%;
+}
+
+dl{
+	margin-bottom:0 !important;
+	padding:0;
+}
+
+textarea::-webkit-input-placeholder,input::-webkit-input-placeholder {
+	color:#bbb !important;
+}
+textarea:-moz-placeholder,input:-moz-placeholder {
+	color:#bbb !important;
+}
+textarea::-moz-placeholder,input::-moz-placeholder {
+	color:#bbb !important;
+}
+textarea:-ms-input-placeholder,input:-ms-input-placeholder {
+	color:#bbb !important;
+}

@@ -1,0 +1,66 @@
+/* line 1, ../sass/basic.scss */
+input, button, select, textarea {
+  outline: none !important;
+}
+
+/* line 5, ../sass/basic.scss */
+body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+/* line 14, ../sass/basic.scss */
+a:hover {
+  text-decoration: none;
+}
+
+/* line 18, ../sass/basic.scss */
+ul {
+  padding: 0;
+}
+
+/* line 22, ../sass/basic.scss */
+li {
+  list-style-type: none;
+}
+
+/* line 26, ../sass/basic.scss */
+.row {
+  padding: 0;
+  margin: 0;
+}
+
+/* line 31, ../sass/basic.scss */
+.fw {
+  width: 100%;
+}
+
+/* line 35, ../sass/basic.scss */
+dl {
+  margin-bottom: 0 !important;
+  padding: 0;
+}
+
+/* line 40, ../sass/basic.scss */
+textarea::-webkit-input-placeholder, input::-webkit-input-placeholder {
+  color: #bbb !important;
+}
+
+/* line 43, ../sass/basic.scss */
+textarea:-moz-placeholder, input:-moz-placeholder {
+  color: #bbb !important;
+}
+
+/* line 46, ../sass/basic.scss */
+textarea::-moz-placeholder, input::-moz-placeholder {
+  color: #bbb !important;
+}
+
+/* line 49, ../sass/basic.scss */
+textarea:-ms-input-placeholder, input:-ms-input-placeholder {
+  color: #bbb !important;
+}
